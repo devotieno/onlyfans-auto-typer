@@ -1,0 +1,29 @@
+{
+  "name": "onlyfans-auto-typer",
+  "version": "1.0.0",
+  "description": "Desktop app for automating OnlyFans DMs with Infloww integration",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devotieno/onlyfans-auto-typer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/devotieno/onlyfans-auto-typer/issues"
+  },
+  "homepage": "https://github.com/devotieno/onlyfans-auto-typer#readme",
+  "dependencies": {
+    "axios": "^1.10.0",
+    "dotenv": "^16.5.0",
+    "electron": "^36.5.0",
+    "openai": "^5.5.1",
+    "puppeteer": "^24.10.2"
+  }
+}

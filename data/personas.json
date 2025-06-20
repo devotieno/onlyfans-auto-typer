@@ -1,0 +1,24 @@
+[
+  {
+    "creatorId": "creator123",
+    "name": "Jane Doe",
+    "tone": "flirty",
+    "templates": [
+      {
+        "trigger": "fan_online",
+        "text": "Hey [FanName], you're online! 😘 Ready for some fun?"
+      }
+    ]
+  },
+  {
+    "creatorId": "creator123",
+    "name": "brian",
+    "tone": "flirty",
+    "templates": [
+      {
+        "trigger": "fan_online",
+        "text": "hey"
+      }
+    ]
+  }
+]

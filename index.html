@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>OnlyFans Auto Typer</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>OnlyFans Auto Typer</h1>
+    <div>
+      <h2>Creator Persona</h2>
+      <input id="creator-name" placeholder="Creator Name" />
+      <select id="tone">
+        <option value="flirty">Flirty</option>
+        <option value="friendly">Friendly</option>
+        <option value="professional">Professional</option>
+      </select>
+      <textarea id="template" placeholder="Message Template (e.g., Hey [FanName], thanks for joining!)"></textarea>
+      <button onclick="savePersona()">Save Persona</button>
+    </div>
+    <div>
+      <h2>Message Queue</h2>
+      <ul id="message-queue"></ul>
+      <button onclick="startAutomation()">Start Automation</button>
+    </div>
+    <div>
+      <h2>Fan Events</h2>
+      <ul id="fan-events"></ul>
+    </div>
+    <script src="renderer.js"></script>
+  </body>
+</html>
